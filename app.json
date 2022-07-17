@@ -1,6 +1,8 @@
 {
   "expo": {
     "name": "getirClone",
+    "scheme": "getir",
+    "jsEngine":"hermes",
     "slug": "getirClone",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,7 +20,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.eypdgn.getirclone"
     },
     "android": {
       "adaptiveIcon": {
